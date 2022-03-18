@@ -1,0 +1,416 @@
+/* PC Version */
+
+/* Import Font */
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #F5F5F5;
+}
+
+
+/* Header */
+
+
+/* Name */
+
+/* Hacer un div container para alinear todo.  creo que se ve en el curso de flexbox */
+#name-person{
+    font-weight: bold;
+    color: #464646;
+    font-size: 16px;
+}
+
+/* Navigation */
+.nav-container{
+    width: auto;
+    position: relative;
+    display: flex;
+}
+
+nav{
+    position: absolute;
+    top: -5px;
+    right: 152px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    color: #464646;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #C78C19;
+}
+
+
+/* Section */
+
+
+/* Presentation */
+/* container Presentacion  */
+
+.containerPresentacion{
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+
+.containerPresentacion-img{
+    display: block;
+    width: 368px;
+    height: 368px;
+}
+
+.texto-derecho{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 32px;
+    position: static;
+    width: 751px;
+    height: 122px;
+    left: 0px;
+    top: 0px;
+}
+
+/* Styles parafos */
+
+#title-presentation{
+    font-weight: bold;
+    font-size: 52px;
+    color: #464646;
+}
+
+.presentation{
+    color: #464646;
+    font-size: 16px;
+}
+
+.texto-presentation{
+    font-size: 22px;
+    color: #464646;
+}
+
+/* Picture */
+
+.picture{
+    width: 368px;
+    height: 368px;
+    float:right;
+}
+
+/* Links */
+.links{
+    width: auto;
+    position: relative;
+    display: flex;
+}
+
+.links li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.links a{
+    color: #464646;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: #C78C19;
+}
+
+
+/* Section */
+
+
+/* About me */
+/* Falta mover el texto con sangria */
+
+.titulo-sobreMi{ 
+    font-weight: bold;
+    font-size: 32px;
+    color: #464646;
+}
+
+.container-about{
+    width: auto;
+    height: 383px;
+    padding-top: 2%;
+    padding-left: 17%;
+    background-color:  #EAF2FD;
+    
+}
+
+.text-aboutME{
+    color: #464646;
+    font-size: 16px;
+}
+
+
+/* Section */
+
+
+/* Skills and Hobbies */
+
+
+/* Titles */
+
+.titles{
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    color: #464646;
+}
+
+.casillas{
+    width: 176px;
+    height: 174px;
+	background-color: #FFF;
+	text-align: center;
+	margin: 1%;
+	/*transition: .3s;*/
+	/*box-shadow: 2px 2px 2px #CCC;*/
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+	position: relative;
+}
+
+.listaCasillas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.casillas{
+    display: flex;
+    /*width: 16%;*/
+}
+
+/* Iconos */
+
+/* Hacer las modificaciones de los iconos */
+
+.casillas{
+    color: rgba(42, 122, 228, 1);
+}
+
+
+
+
+
+
+
+
+
+
+/* Section */
+
+
+/* Formacion Academica */
+
+.container-formation{
+    background-color: #EAF2FD;
+}
+
+.formacion{
+    width: auto;
+    /*height: 286px;*/
+	background-color: #FFF;
+	text-align: center;
+	margin: 1%;
+	/*transition: .3s;*/
+	/*box-shadow: 2px 2px 2px #CCC;*/
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+	position: relative;
+}
+
+.listaFormaciones{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formacion{
+    display: flex;
+    width: 25%;
+    height: 180px;
+}
+
+/* Imagenes */
+
+/* Hacer las modificaciones de los imagenes */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section */
+
+.titulo-formacion{
+    font-weight: 700;
+    font-size: 22px;
+    color: #464646;
+}
+
+.texto-formacion{
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+}
+
+
+
+.repositorio{
+    border: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #2A7AE4;
+    color: white;
+    margin: 25px 0;    
+}
+
+.demo{
+    border-color: #2A7AE4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: white;
+    color: #2A7AE4;
+    margin: 25px 0;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section */
+
+
+/* Contacto */
+
+.form-contacto{
+    background-color: #EAF2FD;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+    background-color: #EAF2FD;
+}
+
+.contact-img{
+    display: block;
+    width: 464px;
+    height: 570px;
+}
+
+.contact-text{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 32px;
+}
+
+.contact-title{
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.contact-subtext{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0;
+    color: #464646;
+}
+
+.contacto-input{
+    border: transparent;
+    height: 56px;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.contacto-input:focus{
+    border-bottom: solid 2px #2A7AE4;
+}
+
+.contacto-input::placeholder{
+    color: #2A7AE4;
+}
+
+.contacto-textarea{
+    border: transparent;
+    margin: 10px 0px;
+    height: 96px;
+    width: 100%;
+}
+
+.contacto-textarea::placeholder{
+    color: #2A7AE4;
+}
+
+.contacto-button{
+    border: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #2A7AE4;
+    color: white;
+    margin: 25px 0;    
+}
+
+
+/* Section */
+
+
+/* Footer */
+
+.footer{
+    text-align: center;
+}

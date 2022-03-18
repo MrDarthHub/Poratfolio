@@ -4,90 +4,242 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/062436dfc8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
     <title>Portafolio Brayan Diaz</title>
 </head>
 
 <body>
-    <div>
-        <header> 
-            <h1>Brayan Diaz</h1> 
-            <ul>
-                <li>Sobre mi</li>
-                <li>Skills</li>
-                <li>Hobbies</li>
-                <li>Formacion</li>
-                <li>Proyectos</li>
-                <li>bdiazvega08@gmail.com</li>
-            </ul>
-        </header>
-    </div>
+        <div class="nav-container">
+            <header> 
+                <p id="name-person">Brayan Diaz</p>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="#sobreMi">Sobre mi</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#hobbies">Hobbies</a></li>
+                        <li><a href="#formacion">Formacion</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
     <main>
         <section>
-            <h2>Hola mi nombre es Brayan Diaz y soy software developer</h2>
-            <!--<img src=""> #Poner una foto mia -->
-            <p>Tengo formacion en distintos temas en torno a la programacion tales
-                como frontend, backend, cyber security y linux
-            </p>
-            <ul>
-                <!-- Add links -->
-                <li>GitHub</li>
-                <li>LinkedIn</li>
-                <li>Instagram</li>
-                <li>Resume</li>
-            </ul>
-        </section>
-
-        <section>
-            <!-- Poner un id al sobre mi para que se comporte como un titulo -->
-            <p>Sobre mi</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora possimus sunt, pariatur mollitia a odit eius. A eligendi nihil officia officiis labore, inventore voluptate dolorem. Earum rerum nulla expedita ex.</p>
-        </section>
-
-        <section>
-            <h3>Skills</h3>
-            <div>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                    <li>Linux</li>
-                </ul>
-            </div>
-            <h4>Hobbies</h4>
-            <div>
-                <ul>
-                    <li>Astronomia</li>
-                    <li>Fotografia</li>
-                    <li>Programacion</li>
-                    <li>Motocicletas</li>
-                    <li>Aeronaves</li>
-                </ul>
+            <div class="containerPresentacion">
+                <div class="texto-derecho">
+                    <h1 id="title-presentation">Hola mi nombre es Brayan Diaz y soy software developer</h1>
+                    <p class="texto-presentation">Tengo formacion en distintos temas en torno a la programacion tales
+                        como <br> frontend, backend, cyber security y linux.
+                        <ul class="links">
+                            <li><a href="https://github.com/MrDarthHub/"><i class="fa-solid fa-link"></i> GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/brayan-diaz/"><i class="fa-solid fa-link"></i> LinkedIn</a></li>
+                            <li><a href="document/resumeBrayanDiaz.pdf"><i class="fa-solid fa-link"></i> Resume</a></li>
+                        </ul>                
+                    </p>
+                </div>
+     
+                <div class="imagen-izquierda">
+                    <img class="picture" src="imagenes/imagenTemporal.png">
+                </div>
             </div>
         </section>
 
-        <section>
-            <h5>Formacion academica</h5>
+        <section id="sobreMi" >
+            <div class="container-about">
+                <div>
+                    <p class="titulo-sobreMi">Sobre mi</p>
+                    <p class="text-aboutME">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora possimus sunt, pariatur mollitia a <br>
+                        odit eius. A eligendi nihil officia officiis labore, inventore voluptate dolorem. Earum rerum nulla expedita ex. <br> 
+                        <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, accusantium expedita. Provident quod, earum <br>   
+                        soluta officiis eligendi nostrum excepturi! Qui distinctio dolorum labore quisquam magnam nulla asperiores, <br> dicta libero hic.</p>
+                    <img src="firma.png" alt="Firma">
+                </div>      
+        </section>
+
+        <section id="skills">
+            <h2 class="titles">Skills</h2>
+            <div>
+                <ul class="listaCasillas">
+                    <li class="casillas"><i class="fa-brands fa-html5"></i>HTML5</li>
+                    <li class="casillas"><i class="fa-brands fa-css3"></i>CSS3</li>
+                    <li class="casillas"><i class="fa-brands fa-js-square"></i>JavaScript</li>
+                    <li class="casillas"><i class="fa-brands fa-python"></i>Python</li>
+                    <li class="casillas"><i class="fa-brands fa-linux"></i>Linux</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="hobbies">
+            <h3 class="titles">Hobbies</h3>
+            <div> <!-- test de separar la palabra del icono -->
+                <ul class="listaCasillas">
+                    <li class="casillas"><i class="fa-solid fa-meteor"></i></li>
+                    <p>Astronomia</p>
+                    <li class="casillas"><i class="fa-solid fa-camera-retro"></i></li>
+                    <p>Fotografia</p>
+                    <li class="casillas"><i class="fa-solid fa-code"></i></li>
+                    <p>Programacion</p>
+                    <li class="casillas"><i class="fa-solid fa-motorcycle"></i></li>
+                    <p>Motocicletas</p>
+                    <li class="casillas"><i class="fa-solid fa-jet-fighter"></i></li>
+                    <p>Aeronaves</p>
+                </ul>
+            </div>
+        </section>
+
+        <section id="formacion" class="container-formation">
+            <h4 class="titles">Formacion academica</h4>
             <!-- Añadir formacion academica -->
             <!-- Con las imagenes de los intitutos queda bien -->
+            <div>
+                <ul class="listaFormaciones"> <!-- test de separar la palabra de la imagen -->
+                    <li class="formacion"><img src="imagenes/formacion/logo_alura.png" alt="Logo Alura"></li>
+                    <p>Alura</p>
+                    <li class="formacion"><img src="imagenes/formacion/logo_cisco.png" alt="Logo Cisco"></li>
+                    <p>Cisco</p>
+                    <li class="formacion"><img src="imagenes/formacion/logo_google.png" alt="Logo Google"></li>
+                    <p>Google</p>
+                    <li class="formacion"><img src="imagenes/formacion/logo_ina.png" alt="Logo INA"></li>
+                    <p>INA</p>
+                    <li class="formacion"><img src="imagenes/formacion/logo_platzi.png" alt="Logo Platzi"></li>
+                    <p>Platzi</p>
+                    <li class="formacion"><img src="imagenes/formacion/logo_tec.png" alt="Logo TEC"></li>
+                    <p>TEC</p>
+                </ul>
+            </div>
         </section>
 
 
-        <section>
-            <h6>Experiencia profesional</h6>
+        <section id="proyectos">
+            <h5 class="titles">Experiencia profesional</h5>
+
+            <!-- Ordenar los mejores primero -->
+
+            <div class="containerEncriptador">
+                <div class="imagenEncriptador">
+                    <img src="imagenes/paginas/enciptadorDatos.PNG" alt="Imagen Encriptador de texto">
+                </div>
+                <div>
+                    <p class="titulo-formacion">Encriptador de texto</p>
+                    <p class="texto-formacion">Challenge Alura Codificador</p>
+                    <button class="repositorio" onclick="window.open('https://github.com/MrDarthHub/Text-Encriptor.github.io')">Repositorio</button>
+                    <button class="demo" onclick="window.open('https://mrdarthhub.github.io/Text-Encriptor.github.io/')">Ver Demo</button>
+                    <!-- Notas -->
+                    <!-- Hacer que los botones funcionen, creo que es con JS --><!-- Ya funciona pero abriendo una nueva pagina y quiero que redireccione-->
+                </div>
+            </div>
+
+            <div class="containerTechNews">
+                <div class="imagenTechNews">
+                    <img src="imagenes/paginas/techNews.PNG" alt="Imagen Tech News">
+                </div>
+                <div>
+                    <p class="titulo-formacion">Tech News</p>
+                    <p class="texto-formacion">Pagina de practica</p>
+                    <button class="repositorio" onclick="window.open('https://github.com/MrDarthHub/Web-Tech-News.github.io')">Repositorio</button>
+                    <button class="demo" onclick="window.open('https://mrdarthhub.github.io/Web-Tech-News.github.io/')">Ver Demo</button>
+                    <!-- Notas -->
+                    <!-- Hacer que los botones funcionen, creo que es con JS --><!-- Ya funciona pero abriendo una nueva pagina y quiero que redireccione-->
+                </div>
+            </div>
+
+            <div class="containerHeadphones">
+                <div class="imagenHeadphones">
+                    <img src="imagenes/paginas/headphones.PNG" alt="Imagen Headphones">
+                </div>
+                <div>
+                    <p class="titulo-formacion">Headphones</p>
+                    <p class="texto-formacion">Pagina de practica</p>
+                    <button class="repositorio" onclick="window.open('https://github.com/MrDarthHub/headphones.github.io')">Repositorio</button>
+                    <button class="demo" onclick="window.open('https://mrdarthhub.github.io/headphones.github.io/')">Ver Demo</button>
+                    <!-- Notas -->
+                    <!-- Hacer que los botones funcionen, creo que es con JS --><!-- Ya funciona pero abriendo una nueva pagina y quiero que redireccione-->
+                </div>
+            </div>
+
+            <div class="containerBarberiaAlura">
+                <div class="imagenBarberiaAlura">
+                    <img src="imagenes/paginas/barberiaAlura.PNG" alt="Imagen Barberia Alura">
+                </div>
+                <div>
+                    <p class="titulo-formacion">Barberia Alura</p>
+                    <p class="texto-formacion">Challenge Alura / Oracle</p>
+                    <button class="repositorio" onclick="window.open('https://github.com/MrDarthHub/barberia_alura.github.io')">Repositorio</button>
+                    <button class="demo" onclick="window.open('https://mrdarthhub.github.io/barberia_alura.github.io/')">Ver Demo</button>
+                    <!-- Notas -->
+                    <!-- Hacer que los botones funcionen, creo que es con JS --><!-- Ya funciona pero abriendo una nueva pagina y quiero que redireccione-->
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </section>
 
 
+        <section class="from-contacto">
+            <div id="contacto" class="contact">
+
+                <div class="izquierda">
+                    <img src="imagenes/contact_image.png" alt="Imagen de contacto">
+                </div>
+
+                <div class="contact-text">
+                    <p class="contact-title">Contacto</p>
+                    <p class="contact-subtext">Quieres contactarme?</p>
+                    <p class="contact-subtext">Complete el siguente formulario y me pondre en contacto lo antes posible.</p>
+                    <form class="form" name="form">
+                        <input class="contacto-input" type="text" name="nombre" placeholder="Nombre">
+                        <input class="contacto-input" type="email" name="email" placeholder="E-Mail">
+                        <input class="contacto-input" type="text" name="asunto" placeholder="Asunto">
+                        <textarea class="contacto-textarea" id="mensaje" cols="40" rows="5" name="mensaje" placeholder="Mensaje"></textarea>
+                        <button type="submit" class="contacto-button">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
 
 
-
-
-
-
-
+    <footer>
+        <p class="footer"> Desarrollado por Brayan Diaz<br>© 2022</p>
+    </footer>
 
     </main>
 
-
+    <script src="script.js"></script>
 </body>
 </html>
