@@ -9,32 +9,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/062436dfc8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="imagenes/resume_tap.png">
     <title>Portafolio Brayan Diaz</title>
 </head>
 
 <body>
-        <div class="nav-container">
-            <header> 
-                <p id="name-person">Brayan Diaz</p>
-                <nav>
-                    <ul class="nav-menu">
-                        <li><a href="#sobreMi">Sobre mi</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#hobbies">Hobbies</a></li>
-                        <li><a href="#formacion">Formacion</a></li>
-                        <li><a href="#proyectos">Proyectos</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
+    <!-- Navigation -->
+    <div class="nav-container">
+        <header> 
+            <p id="name-person">Brayan Diaz</p>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#sobre-mi">Sobre mi</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#formacion">Formacion</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
     <main>
+        <!-- Presentation -->
         <section>
-            <div class="containerPresentacion">
+            <div class="container-presentation">
                 <div class="texto-derecho">
                     <h1 id="title-presentation">Hola mi nombre es Brayan Diaz y soy software developer</h1>
                     <p class="texto-presentation">Tengo formacion en distintos temas en torno a la programacion tales
-                        como <br> frontend, backend, cyber security y linux.
+                        como frontend, backend, cyber security y linux.
                         <ul class="links">
                             <li><a href="https://github.com/MrDarthHub/"><i class="fa-solid fa-link"></i> GitHub</a></li>
                             <li><a href="https://www.linkedin.com/in/brayan-diaz/"><i class="fa-solid fa-link"></i> LinkedIn</a></li>
@@ -43,185 +46,160 @@
                     </p>
                 </div>
      
-                <div class="imagen-izquierda">
+                <div>
                     <img class="picture" src="imagenes/imagenTemporal.png">
                 </div>
             </div>
         </section>
 
-        <section id="sobreMi" >
+        <!-- About Me -->
+        <section id="sobre-mi" >
             <div class="container-about">
                 <div>
                     <p class="titulo-sobreMi">Sobre mi</p>
-                    <p class="text-aboutME">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora possimus sunt, pariatur mollitia a <br>
+                    <p class="text-sobreMi">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora possimus sunt, pariatur mollitia a <br>
                         odit eius. A eligendi nihil officia officiis labore, inventore voluptate dolorem. Earum rerum nulla expedita ex. <br> 
                         <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, accusantium expedita. Provident quod, earum <br>   
                         soluta officiis eligendi nostrum excepturi! Qui distinctio dolorum labore quisquam magnam nulla asperiores, <br> dicta libero hic.</p>
-                    <img src="firma.png" alt="Firma">
+                    <img src="imagenes/firma.png" alt="Firma">
                 </div>      
         </section>
 
+        <!-- Skills -->
         <section id="skills">
             <h2 class="titles">Skills</h2>
             <div>
                 <ul class="listaCasillas">
-                    <li class="casillas"><i class="fa-brands fa-html5"></i>HTML5</li>
-                    <li class="casillas"><i class="fa-brands fa-css3"></i>CSS3</li>
-                    <li class="casillas"><i class="fa-brands fa-js-square"></i>JavaScript</li>
-                    <li class="casillas"><i class="fa-brands fa-python"></i>Python</li>
-                    <li class="casillas"><i class="fa-brands fa-linux"></i>Linux</li>
+                    <li class="casillas"><i class="fa-brands fa-html5 fa-5x"style="color:#2A7AE4"></i><p class="titles-icon">HTML 5</p></li>
+                    <li class="casillas"><i class="fa-brands fa-css3 fa-5x"style="color:#2A7AE4"></i><p class="titles-icon">CSS 3</p></li>
+                    <li class="casillas"><i class="fa-brands fa-js-square fa-5x"style="color:#2A7AE4"></i><p class="titles-icon">JavaScript</p></li>
+                    <li class="casillas"><i class="fa-brands fa-python fa-5x"style="color:#2A7AE4"></i><p class="titles-icon">Python</p></li>
+                    <li class="casillas"><i class="fa-brands fa-linux fa-5x"style="color:#2A7AE4"></i><p class="titles-icon">Linux</p></li>
                 </ul>
             </div>
         </section>
         
+        <!-- Hobbies -->
         <section id="hobbies">
             <h3 class="titles">Hobbies</h3>
-            <div> <!-- test de separar la palabra del icono -->
+            <div>
                 <ul class="listaCasillas">
-                    <li class="casillas"><i class="fa-solid fa-meteor"></i></li>
-                    <p>Astronomia</p>
-                    <li class="casillas"><i class="fa-solid fa-camera-retro"></i></li>
-                    <p>Fotografia</p>
-                    <li class="casillas"><i class="fa-solid fa-code"></i></li>
-                    <p>Programacion</p>
-                    <li class="casillas"><i class="fa-solid fa-motorcycle"></i></li>
-                    <p>Motocicletas</p>
-                    <li class="casillas"><i class="fa-solid fa-jet-fighter"></i></li>
-                    <p>Aeronaves</p>
+                    <li class="casillas"><i class="fa-solid fa-meteor fa-5x" style="color:#2A7AE4"></i><p class="titles-icon">Astronomia</p></li>
+                    <li class="casillas"><i class="fa-solid fa-camera-retro fa-5x" style="color:#2A7AE4"></i><p class="titles-icon">Fotografia</p></li>
+                    <li class="casillas"><i class="fa-solid fa-code fa-5x" style="color:#2A7AE4"></i><p class="titles-icon">Programacion</p></li>
+                    <li class="casillas"><i class="fa-solid fa-motorcycle fa-5x" style="color:#2A7AE4"></i><p class="titles-icon">Motocicletas</p></li>
+                    <li class="casillas"><i class="fa-solid fa-jet-fighter fa-5x" style="color:#2A7AE4"></i><p class="titles-icon">Aeronaves</p></li>
                 </ul>
             </div>
         </section>
 
+        <!-- Formation -->
         <section id="formacion" class="container-formation">
             <h4 class="titles">Formacion academica</h4>
-            <!-- Añadir formacion academica -->
-            <!-- Con las imagenes de los intitutos queda bien -->
             <div>
-                <ul class="listaFormaciones"> <!-- test de separar la palabra de la imagen -->
-                    <li class="formacion"><img src="imagenes/formacion/logo_alura.png" alt="Logo Alura"></li>
-                    <p>Alura</p>
-                    <li class="formacion"><img src="imagenes/formacion/logo_cisco.png" alt="Logo Cisco"></li>
-                    <p>Cisco</p>
-                    <li class="formacion"><img src="imagenes/formacion/logo_google.png" alt="Logo Google"></li>
-                    <p>Google</p>
-                    <li class="formacion"><img src="imagenes/formacion/logo_ina.png" alt="Logo INA"></li>
-                    <p>INA</p>
-                    <li class="formacion"><img src="imagenes/formacion/logo_platzi.png" alt="Logo Platzi"></li>
-                    <p>Platzi</p>
-                    <li class="formacion"><img src="imagenes/formacion/logo_tec.png" alt="Logo TEC"></li>
-                    <p>TEC</p>
+                <ul class="listaFormaciones">
+                    <li id="casilla-alura" class="formacion"><img id="imagen-alura" src="imagenes/formacion/logo_alura.png" alt="Logo Alura"></li>
+                    <!--<p class="titulo-formacion">Alura</p>
+                    <p class="texto-formacion">2021 - presente</p>-->
+                    <li id="casilla-cisco" class="formacion"><img id="imagen-cisco" src="imagenes/formacion/logo_cisco.png" alt="Logo Cisco"></li>
+                    <!--<p class="titulo-formacion">Cisco</p>
+                    <p class="texto-formacion">2022</p>-->
+                    <li id="casilla-google" class="formacion"><img id="imagen-google" src="imagenes/formacion/logo_google.png" alt="Logo Google"></li>
+                    <!--<p class="titulo-formacion">Google</p>
+                    <p class="texto-formacion">2020</p>-->
+                    <li id="casilla-ina" class="formacion"><img id="imagen-ina" src="imagenes/formacion/logo_ina.png" alt="Logo INA"></li>
+                    <!--<p class="titulo-formacion">INA</p>
+                    <p class="texto-formacion">2019</p>-->
+                    <li id="casilla-platzi" class="formacion"><img id="imagen-platzi" src="imagenes/formacion/logo_platzi.png" alt="Logo Platzi"></li>
+                    <!--<p class="titulo-formacion">Platzi</p>
+                    <p class="texto-formacion">2021</p>-->
+                    <li id="casilla-tec" class="formacion"><img id="imagen-tec" src="imagenes/formacion/logo_tec.png" alt="Logo TEC"></li>
+                    <!--<p class="titulo-formacion">TEC</p>
+                    <p class="texto-formacion">2020 - 2021</p>-->
                 </ul>
             </div>
         </section>
-
-
+    
+        <!-- Projects -->
         <section id="proyectos">
             <h5 class="titles">Experiencia profesional</h5>
 
-            <!-- Ordenar los mejores primero -->
+            <!-- Barberia Alura -->
+            <div class="container-proyecto">
 
-            <div class="containerEncriptador">
-                <div class="imagenEncriptador">
-                    <img src="imagenes/paginas/enciptadorDatos.PNG" alt="Imagen Encriptador de texto">
-                </div>
                 <div>
-                    <p class="titulo-formacion">Encriptador de texto</p>
-                    <p class="texto-formacion">Challenge Alura Codificador</p>
-                    <button class="repositorio" onclick="window.open('https://github.com/MrDarthHub/Text-Encriptor.github.io')">Repositorio</button>
-                    <button class="demo" onclick="window.open('https://mrdarthhub.github.io/Text-Encriptor.github.io/')">Ver Demo</button>
-                    <!-- Notas -->
-                    <!-- Hacer que los botones funcionen, creo que es con JS --><!-- Ya funciona pero abriendo una nueva pagina y quiero que redireccione-->
+                    <img src="imagenes/paginas/barberiaAlura.PNG" alt="Imagen Barberia Alura" id="imagenProyecto">
                 </div>
-            </div>
 
-            <div class="containerTechNews">
-                <div class="imagenTechNews">
-                    <img src="imagenes/paginas/techNews.PNG" alt="Imagen Tech News">
-                </div>
-                <div>
-                    <p class="titulo-formacion">Tech News</p>
-                    <p class="texto-formacion">Pagina de practica</p>
-                    <button class="repositorio" onclick="window.open('https://github.com/MrDarthHub/Web-Tech-News.github.io')">Repositorio</button>
-                    <button class="demo" onclick="window.open('https://mrdarthhub.github.io/Web-Tech-News.github.io/')">Ver Demo</button>
-                    <!-- Notas -->
-                    <!-- Hacer que los botones funcionen, creo que es con JS --><!-- Ya funciona pero abriendo una nueva pagina y quiero que redireccione-->
-                </div>
-            </div>
-
-            <div class="containerHeadphones">
-                <div class="imagenHeadphones">
-                    <img src="imagenes/paginas/headphones.PNG" alt="Imagen Headphones">
-                </div>
-                <div>
-                    <p class="titulo-formacion">Headphones</p>
-                    <p class="texto-formacion">Pagina de practica</p>
-                    <button class="repositorio" onclick="window.open('https://github.com/MrDarthHub/headphones.github.io')">Repositorio</button>
-                    <button class="demo" onclick="window.open('https://mrdarthhub.github.io/headphones.github.io/')">Ver Demo</button>
-                    <!-- Notas -->
-                    <!-- Hacer que los botones funcionen, creo que es con JS --><!-- Ya funciona pero abriendo una nueva pagina y quiero que redireccione-->
-                </div>
-            </div>
-
-            <div class="containerBarberiaAlura">
-                <div class="imagenBarberiaAlura">
-                    <img src="imagenes/paginas/barberiaAlura.PNG" alt="Imagen Barberia Alura">
-                </div>
-                <div>
+                <div class="texto-proyecto">
                     <p class="titulo-formacion">Barberia Alura</p>
                     <p class="texto-formacion">Challenge Alura / Oracle</p>
-                    <button class="repositorio" onclick="window.open('https://github.com/MrDarthHub/barberia_alura.github.io')">Repositorio</button>
-                    <button class="demo" onclick="window.open('https://mrdarthhub.github.io/barberia_alura.github.io/')">Ver Demo</button>
-                    <!-- Notas -->
-                    <!-- Hacer que los botones funcionen, creo que es con JS --><!-- Ya funciona pero abriendo una nueva pagina y quiero que redireccione-->
+                    <button class="btn-repositorio" onclick="window.open('https://github.com/MrDarthHub/barberia_alura.github.io')">Repositorio</button>
+                    <button class="btn-demo" onclick="window.open('https://mrdarthhub.github.io/barberia_alura.github.io/')">Ver Demo</button>
+                </div>
+
+            </div>
+
+            <!-- Headphones -->
+            <div class="container-proyecto">
+
+                <div class="texto-proyecto">
+                    <p class="titulo-formacion">Headphones</p>
+                    <p class="texto-formacion">Maqueta de pagina</p>
+                    <button class="btn-repositorio" onclick="window.open('https://github.com/MrDarthHub/headphones.github.io')">Repositorio</button>
+                    <button class="btn-demo" onclick="window.open('https://mrdarthhub.github.io/headphones.github.io/')">Ver Demo</button>
+                </div>
+
+                <div class="imagenHeadphones">
+                    <img src="imagenes/paginas/headphones.PNG" alt="Imagen Headphones" id="imagenDerecha">
+                </div>
+
+            </div>
+
+            <!-- Tech News -->
+            <div class="container-proyecto">
+
+                <div class="imagenTechNews">
+                    <img src="imagenes/paginas/techNews.PNG" alt="Imagen Tech News" id="imagenProyecto">
+                </div>
+
+                <div class="texto-proyecto">
+                    <p class="titulo-formacion">Tech News</p>
+                    <p class="texto-formacion">Maqueta de pagina</p>
+                    <button class="btn-repositorio" onclick="window.open('https://github.com/MrDarthHub/Web-Tech-News.github.io')">Repositorio</button>
+                    <button class="btn-demo" onclick="window.open('https://mrdarthhub.github.io/Web-Tech-News.github.io/')">Ver Demo</button>
                 </div>
             </div>
 
+            <!-- Encriptador -->
+            <div class="container-proyecto"> 
 
+                <div class="texto-proyecto">
+                    <p class="titulo-formacion">Encriptador de texto</p>
+                    <p class="texto-formacion">Challenge Alura / Oracle</p>
+                    <button class="btn-repositorio" onclick="window.open('https://github.com/MrDarthHub/Text-Encriptor.github.io')">Repositorio</button>
+                    <button class="btn-demo" onclick="window.open('https://mrdarthhub.github.io/Text-Encriptor.github.io/')">Ver Demo</button>
+                </div>
 
+                <div>
+                    <img src="imagenes/paginas/enciptadorDatos.PNG" alt="Imagen Encriptador" id="imagenDerecha">
+                </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            </div>
 
         </section>
 
+        <!-- Contact -->
+        <section id="contacto">
+            <div class="contact">
 
-        <section class="from-contacto">
-            <div id="contacto" class="contact">
-
-                <div class="izquierda">
+                <div>
                     <img src="imagenes/contact_image.png" alt="Imagen de contacto">
                 </div>
 
                 <div class="contact-text">
                     <p class="contact-title">Contacto</p>
-                    <p class="contact-subtext">Quieres contactarme?</p>
-                    <p class="contact-subtext">Complete el siguente formulario y me pondre en contacto lo antes posible.</p>
+                    <p class="contact-subtext">¿Quieres contactarme?<br>Complete el siguente formulario y me pondre en contacto lo antes posible.</p>
                     <form class="form" name="form">
                         <input class="contacto-input" type="text" name="nombre" placeholder="Nombre">
                         <input class="contacto-input" type="email" name="email" placeholder="E-Mail">

@@ -15,9 +15,9 @@ body{
 
 /* Hacer un div container para alinear todo.  creo que se ve en el curso de flexbox */
 #name-person{
-    font-weight: bold;
-    color: #464646;
+    font-weight: 700;
     font-size: 16px;
+    color: #464646;
 }
 
 /* Navigation */
@@ -53,15 +53,15 @@ nav a:hover{
 
 
 /* Presentation */
-/* container Presentacion  */
 
-.containerPresentacion{
+/* container Presentacion  */
+.container-presentation{
     display: flex;
     justify-content: center;
     padding: 64px;
 }
 
-.containerPresentacion-img{
+.container-presentation-img{
     display: block;
     width: 368px;
     height: 368px;
@@ -78,17 +78,10 @@ nav a:hover{
     top: 0px;
 }
 
-/* Styles parafos */
-
 #title-presentation{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 52px;
     color: #464646;
-}
-
-.presentation{
-    color: #464646;
-    font-size: 16px;
 }
 
 .texto-presentation{
@@ -131,26 +124,25 @@ nav a:hover{
 
 
 /* About me */
-/* Falta mover el texto con sangria */
-
-.titulo-sobreMi{ 
-    font-weight: bold;
-    font-size: 32px;
-    color: #464646;
-}
 
 .container-about{
     width: auto;
     height: 383px;
     padding-top: 2%;
     padding-left: 17%;
+    display: flex;
     background-color:  #EAF2FD;
-    
 }
 
-.text-aboutME{
+.titulo-sobreMi{ 
+    font-weight: 700;
+    font-size: 32px;
     color: #464646;
+}
+
+.text-sobreMi{
     font-size: 16px;
+    color: #464646;
 }
 
 
@@ -159,53 +151,48 @@ nav a:hover{
 
 /* Skills and Hobbies */
 
-
 /* Titles */
-
 .titles{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 32px;
     text-align: center;
     color: #464646;
 }
 
+.titles-icon{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #464646;
+}
+
+/* Casillas */
 .casillas{
+    display: block;
     width: 176px;
     height: 174px;
 	background-color: #FFF;
 	text-align: center;
 	margin: 1%;
-	/*transition: .3s;*/
-	/*box-shadow: 2px 2px 2px #CCC;*/
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 	position: relative;
 }
 
+
 .listaCasillas{
     display: flex;
     flex-wrap: wrap;
+    padding-left: 17%;
 }
 
-.casillas{
-    display: flex;
-    /*width: 16%;*/
+.listaCasillas i{
+    padding-top: 25px;
 }
 
-/* Iconos */
-
-/* Hacer las modificaciones de los iconos */
-
-.casillas{
-    color: rgba(42, 122, 228, 1);
+.casillas ul{
+    display: inline-flex;
+    padding-left: 17%;
 }
-
-
-
-
-
-
-
-
 
 
 /* Section */
@@ -215,23 +202,23 @@ nav a:hover{
 
 .container-formation{
     background-color: #EAF2FD;
+    height: 550px;/* Cambiar el height para que calce con todo (imagen/texto) */
 }
 
 .formacion{
     width: auto;
-    /*height: 286px;*/
 	background-color: #FFF;
 	text-align: center;
 	margin: 1%;
-	/*transition: .3s;*/
-	/*box-shadow: 2px 2px 2px #CCC;*/
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 	position: relative;
 }
 
 .listaFormaciones{
+    width: auto;
     display: flex;
     flex-wrap: wrap;
+    padding-left: 17%;
 }
 
 .formacion{
@@ -241,26 +228,49 @@ nav a:hover{
 }
 
 /* Imagenes */
+#imagen-alura{
+    width: 260px;
+    height: 150px;
+    margin: auto;
+}
 
-/* Hacer las modificaciones de los imagenes */
+#imagen-cisco{
+    width: 260px;
+    height: 150px;
+    margin: auto;  
+}
 
+#imagen-google{
+    width: 260px;
+    height: 100px;
+    margin: auto;
+}
 
+#imagen-ina{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
 
+#imagen-platzi{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: -15px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+#imagen-tec{
+    width: 260px;
+    height: 180px;
+    margin: auto;
+    margin-top: -10px;
+}
 
 
 /* Section */
+
+
+/* Experiencia Profesional*/
 
 .titulo-formacion{
     font-weight: 700;
@@ -274,9 +284,8 @@ nav a:hover{
     color: #464646;
 }
 
-
-
-.repositorio{
+/* Botones */
+.btn-repositorio{
     border: transparent;
     display: flex;
     flex-direction: row;
@@ -288,7 +297,7 @@ nav a:hover{
     margin: 25px 0;    
 }
 
-.demo{
+.btn-demo{
     border-color: #2A7AE4;
     display: flex;
     flex-direction: row;
@@ -300,38 +309,36 @@ nav a:hover{
     margin: 25px 0;    
 }
 
+/* imagenes */
+.container-proyecto{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+}
 
+.texto-proyecto{
+    padding-top: 5%;
+    padding-right: 17%;
+    padding-left: 17%;
+}
 
+#imagenProyecto{
+    width: 752px;
+    height: 406px;
+    padding-left: 17%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#imagenDerecha{
+    width: 752px;
+    height: 406px;
+    padding-left: -27%;
+}
 
 
 /* Section */
 
 
 /* Contacto */
-
-.form-contacto{
-    background-color: #EAF2FD;
-}
 
 .contact{
     display: flex;
