@@ -1,17 +1,17 @@
 # Poratfolio
 *** Under construction ***
 *** En construccion ***
+<br>
 
+** English **
 
-**** English **
-
-This is a model web page of portfolio.
+This is a model webpage of portfolio.
 
 It was created to show some of my education and work on web development.
 
 Live Demo:
 
-    Enter this link: 
+- Enter this link: https://mrdarthhub.github.io/Poratfolio.github.io/
 
 ** Español **
 
@@ -21,4 +21,4 @@ Fue creada para mostrar mi educion y trabajo en web development.
 
 Demo en vivo:
 
-    Entre en este link: 
+- Entre en este link: https://mrdarthhub.github.io/Poratfolio.github.io/
